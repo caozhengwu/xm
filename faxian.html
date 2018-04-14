@@ -1,0 +1,547 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<style type="text/css">
+			.mui-slider-indicator{margin-top: 44px;}
+			.mui-col-xs-6{width: 33.3%;}
+			.mui-slider{margin-right: 10px;}
+			/*.mui-slider-group{
+				height: 0;
+			}*/
+			.top{
+				width: 100%;
+				
+			
+				margin-top: 3.5rem;
+			}
+			.topa{
+				width: 50%;
+				float: left;
+				color: #4ba1f6;
+			}
+			.topa input{
+				width: 70%;
+				margin-left: 5%;
+					border: 1px solid #4ba1f6;
+         		border-radius: 10px;
+         		color: black;
+			}
+			.sp{
+				margin-left: 10%;
+				color: red;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <h1 class="mui-title">智能匹配</h1>
+		</header>
+		
+		
+		
+		<div class="top">
+			<div class="topa">
+				金额<input>
+			</div>
+			<div class="topa">
+				期限<input value="不限">
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		<div class="mui-slider">
+		    <div class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+		        <a class="mui-control-item" href="#item1">有无信用卡</a>
+		        <a class="mui-control-item" href="#item2">还款方式</a>
+		        <a class="mui-control-item" href="#item3">默认排序</a>
+		    </div>
+		    <div id="sliderProgressBar" class="mui-slider-progress-bar mui-col-xs-6"></div>
+		    <div class="mui-slider-group">
+		           <div id="item1" class="mui-slider-item mui-control-content mui-active">
+		                    <ul class="mui-table-view">
+		                        <li class="mui-table-view-cell">
+		            <div id="refreshContainer">	
+		                        	<ul class="mui-table-view mui-table-view-chevron">
+					<li class="mui-table-view-cell mui-media" title='360'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/banner4.jpg">
+							<div class="mui-media-body">
+								360借条-3+60借条<span class="sp">0.03%日</span>
+								<p class="mui-ellipsis">申请人数：234220<span class="sp">可贷10000元</span></p>
+							</div>
+						</a> 
+					</li>
+					<li class="mui-table-view-cell mui-media" title='指环王'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/banner4.jpg">
+							<div class="mui-media-body">
+								指环王-指环王<span class="sp">0.05%日</span>
+								<p class="mui-ellipsis">申请人数：234220<span class="sp">可贷10000元</span></p>
+							</div>
+						</a> 
+					</li>
+					<li class="mui-table-view-cell mui-media" title='百姓钱包'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/banner4.jpg">
+							<div class="mui-media-body">
+								百姓钱包-百姓钱包<span class="sp">0.04%日</span>
+								<p class="mui-ellipsis">申请人数：234220<span class="sp">可贷10000元</span></p>
+							</div>
+						</a> 
+					</li>
+					<li class="mui-table-view-cell mui-media" title='平安普惠'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/banner4.jpg">
+							<div class="mui-media-body">
+								平安普惠-平安普惠<span class="sp">0.03%日</span>
+								<p class="mui-ellipsis">申请人数：234220<span class="sp">可贷10000元</span></p>
+							</div>
+						</a> 
+					</li>
+					<li class="mui-table-view-cell mui-media" title='现金巴士'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/banner4.jpg">
+							<div class="mui-media-body">
+								现金巴士-现金巴士<span class="sp">0.09%日</span>
+								<p class="mui-ellipsis">申请人数：234220<span class="sp">可贷10000元</span></p>
+							</div>
+						</a> 
+					</li>
+					<li class="mui-table-view-cell mui-media" title='小花钱包'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/banner4.jpg">
+							<div class="mui-media-body">
+								小花钱包-小花钱包<span class="sp">0.05%日</span>
+								<p class="mui-ellipsis">申请人数：234220<span class="sp">可贷10000元</span></p>
+							</div>
+						</a> 
+					</li>
+					<li class="mui-table-view-cell mui-media" title='你我贷'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/banner4.jpg">
+							<div class="mui-media-body">
+								你我贷-你我贷<span class="sp">0.03%日</span>
+								<p class="mui-ellipsis">申请人数：234220<span class="sp">可贷10000元</span></p>
+							</div>
+						</a> 
+					</li>
+					<li class="mui-table-view-cell mui-media" title='幸福'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/banner4.jpg">
+							<div class="mui-media-body">
+								360借条-3+60借条<span class="sp">0.03%日</span>
+								<p class="mui-ellipsis">申请人数：234220<span class="sp">可贷10000元</span></p>
+							</div>
+						</a> 
+					</li>
+					<li class="mui-table-view-cell mui-media" title='幸福'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/banner4.jpg">
+							<div class="mui-media-body">
+								360借条-3+60借条<span class="sp">0.03%日</span>
+								<p class="mui-ellipsis">申请人数：234220<span class="sp">可贷10000元</span></p>
+							</div>
+						</a> 
+					</li>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<li class="mui-table-view-cell mui-media" title='cbd'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="http://placehold.it/40x30">
+							<div class="mui-media-body">
+								CBD
+								<p class="mui-ellipsis">烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media" title='cbd'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="http://placehold.it/40x30">
+							<div class="mui-media-body">
+								CBD
+								<p class="mui-ellipsis">烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+							</div>
+						</a>
+					</li>
+				</ul>
+				 </div>
+		                        </li>
+		                       
+		                    </ul>
+		                </div>
+		           <div id="item2" class="mui-slider-item mui-control-content">
+		                    <ul class="mui-table-view">
+		                    	
+		                        <li class="mui-table-view-cell">
+		                        	             <div id="refreshContainer">	
+		                        	<ul class="mui-table-view mui-table-view-chevron">
+					
+					
+					
+					
+					
+					
+					
+										<li class="mui-table-view-cell mui-media" title='指环王'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/banner3.jpg">
+							<div class="mui-media-body">
+								指环王-指环王<span class="sp">0.05%日</span>
+								<p class="mui-ellipsis">申请人数：234220<span class="sp">可贷10000元</span></p>
+							</div>
+						</a> 
+					</li>
+					<li class="mui-table-view-cell mui-media" title='百姓钱包'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/banner3.jpg">
+							<div class="mui-media-body">
+								百姓钱包-百姓钱包<span class="sp">0.04%日</span>
+								<p class="mui-ellipsis">申请人数：234220<span class="sp">可贷10000元</span></p>
+							</div>
+						</a> 
+					</li>
+					<li class="mui-table-view-cell mui-media" title='平安普惠'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/banner3.jpg">
+							<div class="mui-media-body">
+								平安普惠-平安普惠<span class="sp">0.03%日</span>
+								<p class="mui-ellipsis">申请人数：234220<span class="sp">可贷10000元</span></p>
+							</div>
+						</a> 
+					</li>
+					<li class="mui-table-view-cell mui-media" title='现金巴士'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/banner4.jpg">
+							<div class="mui-media-body">
+								现金巴士-现金巴士<span class="sp">0.09%日</span>
+								<p class="mui-ellipsis">申请人数：234220<span class="sp">可贷10000元</span></p>
+							</div>
+						</a> 
+					</li>
+					<li class="mui-table-view-cell mui-media" title='小花钱包'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/banner4.jpg">
+							<div class="mui-media-body">
+								小花钱包-小花钱包<span class="sp">0.05%日</span>
+								<p class="mui-ellipsis">申请人数：234220<span class="sp">可贷10000元</span></p>
+							</div>
+						</a> 
+					</li>
+					<li class="mui-table-view-cell mui-media" title='你我贷'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/banner4.jpg">
+							<div class="mui-media-body">
+								你我贷-你我贷<span class="sp">0.03%日</span>
+								<p class="mui-ellipsis">申请人数：234220<span class="sp">可贷10000元</span></p>
+							</div>
+						</a> 
+					</li>
+					<li class="mui-table-view-cell mui-media" title='幸福'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/banner4.jpg">
+							<div class="mui-media-body">
+								360借条-3+60借条<span class="sp">0.03%日</span>
+								<p class="mui-ellipsis">申请人数：234220<span class="sp">可贷10000元</span></p>
+							</div>
+						</a> 
+					</li>
+					<li class="mui-table-view-cell mui-media" title='幸福'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/banner4.jpg">
+							<div class="mui-media-body">
+								360借条-3+60借条<span class="sp">0.03%日</span>
+								<p class="mui-ellipsis">申请人数：234220<span class="sp">可贷10000元</span></p>
+							</div>
+						</a> 
+					</li>
+					<li class="mui-table-view-cell mui-media" title='cbd'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="http://placehold.it/40x30">
+							<div class="mui-media-body">
+								CBD
+								<p class="mui-ellipsis">烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media" title='cbd'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="http://placehold.it/40x30">
+							<div class="mui-media-body">
+								CBD
+								<p class="mui-ellipsis">烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media" title='cbd'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="http://placehold.it/40x30">
+							<div class="mui-media-body">
+								CBD
+								<p class="mui-ellipsis">烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media" title='cbd'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="http://placehold.it/40x30">
+							<div class="mui-media-body">
+								CBD
+								<p class="mui-ellipsis">烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media" title='cbd'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="http://placehold.it/40x30">
+							<div class="mui-media-body">
+								CBD
+								<p class="mui-ellipsis">烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+							</div>
+						</a>
+					</li>
+				</ul>
+				 </div>
+		                        </li>
+		                      
+		                    </ul>
+		                </div>
+		           <div id="item3" class="mui-slider-item mui-control-content">
+		                    <ul class="mui-table-view">
+		                        <li class="mui-table-view-cell">
+		                        	             <div id="refreshContainer">	
+		                        	<ul class="mui-table-view mui-table-view-chevron">
+					
+					
+					
+										<li class="mui-table-view-cell mui-media" title='指环王'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/banner2.jpg">
+							<div class="mui-media-body">
+								指环王-指环王<span class="sp">0.05%日</span>
+								<p class="mui-ellipsis">申请人数：234220<span class="sp">可贷10000元</span></p>
+							</div>
+						</a> 
+					</li>
+					<li class="mui-table-view-cell mui-media" title='百姓钱包'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/banner1.jpg">
+							<div class="mui-media-body">
+								百姓钱包-百姓钱包<span class="sp">0.04%日</span>
+								<p class="mui-ellipsis">申请人数：234220<span class="sp">可贷10000元</span></p>
+							</div>
+						</a> 
+					</li>
+					<li class="mui-table-view-cell mui-media" title='平安普惠'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/banner3.jpg">
+							<div class="mui-media-body">
+								平安普惠-平安普惠<span class="sp">0.03%日</span>
+								<p class="mui-ellipsis">申请人数：234220<span class="sp">可贷10000元</span></p>
+							</div>
+						</a> 
+					</li>
+					<li class="mui-table-view-cell mui-media" title='现金巴士'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/banner4.jpg">
+							<div class="mui-media-body">
+								现金巴士-现金巴士<span class="sp">0.09%日</span>
+								<p class="mui-ellipsis">申请人数：234220<span class="sp">可贷10000元</span></p>
+							</div>
+						</a> 
+					</li>
+					<li class="mui-table-view-cell mui-media" title='小花钱包'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/banner2.jpg">
+							<div class="mui-media-body">
+								小花钱包-小花钱包<span class="sp">0.05%日</span>
+								<p class="mui-ellipsis">申请人数：234220<span class="sp">可贷10000元</span></p>
+							</div>
+						</a> 
+					</li>
+					<li class="mui-table-view-cell mui-media" title='你我贷'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/banner4.jpg">
+							<div class="mui-media-body">
+								你我贷-你我贷<span class="sp">0.03%日</span>
+								<p class="mui-ellipsis">申请人数：234220<span class="sp">可贷10000元</span></p>
+							</div>
+						</a> 
+					</li>
+					<li class="mui-table-view-cell mui-media" title='幸福'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/banner4.jpg">
+							<div class="mui-media-body">
+								360借条-3+60借条<span class="sp">0.03%日</span>
+								<p class="mui-ellipsis">申请人数：234220<span class="sp">可贷10000元</span></p>
+							</div>
+						</a> 
+					</li>
+					<li class="mui-table-view-cell mui-media" title='幸福'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/banner4.jpg">
+							<div class="mui-media-body">
+								360借条-3+60借条<span class="sp">0.03%日</span>
+								<p class="mui-ellipsis">申请人数：234220<span class="sp">可贷10000元</span></p>
+							</div>
+						</a> 
+					</li>
+					<li class="mui-table-view-cell mui-media" title='cbd'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="http://placehold.it/40x30">
+							<div class="mui-media-body">
+								CBD
+								<p class="mui-ellipsis">烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media" title='cbd'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="http://placehold.it/40x30">
+							<div class="mui-media-body">
+								CBD
+								<p class="mui-ellipsis">烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media" title='cbd'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="http://placehold.it/40x30">
+							<div class="mui-media-body">
+								CBD
+								<p class="mui-ellipsis">烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media" title='cbd'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="http://placehold.it/40x30">
+							<div class="mui-media-body">
+								CBD
+								<p class="mui-ellipsis">烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media" title='cbd'>
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="http://placehold.it/40x30">
+							<div class="mui-media-body">
+								CBD
+								<p class="mui-ellipsis">烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+							</div>
+						</a>
+					</li>
+				</ul>
+				 </div>
+		                        </li>
+		                        
+		                    </ul>
+		                </div>
+		       
+		    </div>
+		</div>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+			var str = '';
+			function up() {
+//				setTimeout(function() {
+//					str += "<li class='mui-table-view-cell mui-media' title='cbd'>";
+//					str += "<a href='javascript:;'>";
+//					str += '<img class="mui-media-object mui-pull-left" src="http://placehold.it/40x30">';
+//					str += '<div class="mui-media-body">大望路';
+//					str += '<p class="mui-ellipsis">111111，如同打翻的调色盘一般.</p>'
+//					str += '</div>';
+//					str += '</a>';
+//					str += '</li>';
+
+//					mui(".mui-table-view")[0].innerHTML += str;
+					mui('#refreshContainer').pullRefresh().endPullupToRefresh();
+//				}, 1000)
+			}
+
+			function dwon() {
+
+//				setTimeout(function() {
+					//mui('#refreshContainer').pullRefresh().endPulldown();
+//
+//					str += "<li class='mui-table-view-cell mui-media' title='cbd'>";
+//					str += "<a href='javascript:;'>";
+//					str += '<img class="mui-media-object mui-pull-left" src="http://placehold.it/40x30">';
+//					str += '<div class="mui-media-body">CBD';
+//					str += '<p class="mui-ellipsis">烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>'
+//					str += '</div>';
+//					str += '</a>';
+//					str += '</li>';
+
+//					mui(".mui-table-view")[0].innerHTML += str;
+//					mui('#refreshContainer').pullRefresh().endPulldownToRefresh();
+
+                     mui('#refreshContainer').pullRefresh().endPulldown();
+//				}, 1000)
+
+			}
+			mui.init({
+				pullRefresh: {
+					container: "#refreshContainer", //下拉刷新容器标识，querySelector能定位的css选择器均可，比如：id、.class等
+					down: {
+						 style:'circle',//必选，下拉刷新样式，目前支持原生5+ ‘circle’ 样式
+					      color:'#2BD009', //可选，默认“#2BD009” 下拉刷新控件颜色
+					      height:'50px',//可选,默认50px.下拉刷新控件的高度,
+					      range:'100px', //可选 默认100px,控件可下拉拖拽的范围
+					      offset:'0px', //可选 默认0px,下拉刷新控件的起始位置
+					      auto: true,//可选,默认false.首次加载自动上拉刷新一次
+//						contentdown: "下拉可以刷新", //可选，在下拉可刷新状态时，下拉刷新控件上显示的标题内容
+//						contentover: "释放立即刷新", //可选，在释放可刷新状态时，下拉刷新控件上显示的标题内容
+//						contentrefresh: "正在刷新...", //可选，正在刷新状态时，下拉刷新控件上显示的标题内容
+						callback: dwon //必选，刷新函数，根据具体业务来编写，比如通过ajax从服务器获取新数据；
+					},
+					up: {
+						height: 50, //可选.默认50.触发上拉加载拖动距离
+						auto: false, //可选,默认false.自动上拉加载一次
+						contentrefresh: "正在加载...", //可选，正在加载状态时，上拉加载控件上显示的标题内容
+						contentnomore: '没有更多数据了', //可选，请求完毕若没有更多数据时显示的提醒内容；
+						callback: up //必选，刷新函数，根据具体业务来编写，比如通过ajax从服务器获取新数据；
+					}
+				}
+			});
+			mui.plusReady(function() {
+           
+				mui("ul").on("tap", "li", function() {
+
+					var strTitle = this.getAttribute('title')
+					mui.openWindow({
+
+						url: "list.html",
+						id: "list.html",
+						extras: {
+							title: strTitle
+						}
+
+					})
+
+				})
+				
+
+			})
+		</script>
+	</body>
+
+</html>

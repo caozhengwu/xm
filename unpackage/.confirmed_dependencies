@@ -1,0 +1,116 @@
+{
+	"footer.html": {
+		"resources": [
+			"home.html",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css"
+		],
+		"refer": [
+			"home.html",
+			"faxian.html",
+			"login.html",
+			"invest.html",
+			"faxiana.html",
+			"homea.html"
+		]
+	},
+	"login.html": {
+		"refer": [
+			"main.html",
+			"forget_password.html",
+			"reg.html"
+		],
+		"resources": [
+			"js/app.js",
+			"images/sinaweibo.png",
+			"images/weixin.png",
+			"images/qq.png",
+			"js/mui.enterfocus.js",
+			"css/mui.min.css"
+		]
+	},
+	"faxian.html": {
+		"refer": [
+			"list.html"
+		],
+		"resources": [
+			"img/l_13.jpg",
+			"img/l_16.jpg",
+			"css/mui.min.css",
+			"images/banner4.jpg",
+			"images/banner2.jpg",
+			"images/banner1.jpg",
+			"images/banner3.jpg"
+		]
+	},
+	"home.html": {
+		"refer": [
+			"faxian.html",
+			"invest.html"
+		],
+		"resources": [
+			"img/2_09.jpg",
+			"img/it2.jpg",
+			"img/s_05.jpg",
+			"img/l_07.jpg",
+			"img/s_07.jpg",
+			"img/l_03.jpg",
+			"img/s_02.jpg",
+			"img/2_05.jpg",
+			"img/s_11.jpg",
+			"img/s_09.jpg",
+			"img/l_05.jpg",
+			"img/it1.jpg",
+			"img/2_10.jpg",
+			"img/2_03.jpg",
+			"img/12_02.jpg",
+			"img/it3.jpg",
+			"img/it4.jpg",
+			"img/d_16.png",
+			"css/mui.min.css",
+			"images/banner2.jpg",
+			"images/banner1.jpg",
+			"images/banner4.jpg",
+			"images/banner3.jpg",
+			"images/d.jpg",
+			"images/b.jpg",
+			"images/a.jpg",
+			"images/c.jpg",
+			"invest.html",
+			"faxian.html"
+		]
+	},
+	"invest.html": {
+		"resources": [
+			"img/l_13.jpg",
+			"img/l_05.jpg",
+			"img/l_07.jpg",
+			"img/l_03.jpg",
+			"css/mui.min.css"
+		]
+	},
+	"list.html": {
+		"resources": [
+			"css/mui.min.css"
+		]
+	},
+	"homea.html": {
+		"resources": [
+			"images/banner2.jpg",
+			"images/d.jpg",
+			"images/b.jpg",
+			"images/banner1.jpg",
+			"images/a.jpg",
+			"images/banner4.jpg",
+			"images/banner3.jpg",
+			"images/c.jpg"
+		]
+	},
+	"reg.html": {
+		"resources": [
+			"css/mui.min.css",
+			"css/style.css"
+		]
+	}
+}
